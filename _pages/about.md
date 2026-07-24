@@ -23,6 +23,14 @@ Selected Highlights
 - Collaboration with **Huawei 2012 Labs** on generative AI for meteorological reconstruction and forecasting (integrated into the Pangu weather model).
 - Reviewer / PC member for ICLR, NeurIPS, ICML, AAAI, CVPR, ECCV.
 
+Honors & Awards
+======
+- Beijing Outstanding Graduate, 2026
+- Outstanding Graduate Student, Beihang University
+- First-class Graduate Academic Scholarship, Beihang University
+- Second Prize, “Feng Ru Cup” Science and Technology Competition
+- First Prize, “Lee Kum Kee” Aerospace Scholarship
+
 Contact
 ======
 - Email: [douhongkun@bza.edu.cn](mailto:douhongkun@bza.edu.cn)
