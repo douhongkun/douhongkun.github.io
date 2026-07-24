@@ -26,4 +26,3 @@ Selected Highlights
 Contact
 ======
 - Email: [douhongkun@bza.edu.cn](mailto:douhongkun@bza.edu.cn)
-- Phone: (+86) 17344156875
