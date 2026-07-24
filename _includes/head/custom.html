@@ -10,6 +10,44 @@
  <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
 
+<!-- Academic typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --academic-ink: #1b2838;
+    --academic-muted: #5b6b7c;
+    --academic-accent: #1f4e79;
+    --academic-line: #d7e0ea;
+  }
+  body {
+    font-family: "Source Sans 3", "Segoe UI", sans-serif;
+    color: var(--academic-ink);
+  }
+  .page__content h1, .page__content h2, .archive__item-title,
+  .author__name, .masthead__title, .page__title {
+    font-family: "Source Serif 4", Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+  .author__avatar img {
+    border: 3px solid #fff;
+    box-shadow: 0 6px 18px rgba(27, 40, 56, 0.12);
+  }
+  .page__content a { color: var(--academic-accent); }
+  .archive__item {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--academic-line);
+  }
+  .archive__item:last-child { border-bottom: 0; }
+  .page__content h2 {
+    border-bottom: 1px solid var(--academic-line);
+    padding-bottom: 0.35rem;
+    margin-top: 1.75rem;
+  }
+</style>
+
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>

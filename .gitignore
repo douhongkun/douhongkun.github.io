@@ -21,3 +21,10 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Local preview / tools / personal resume PDF
+.tools/
+preview/
+*.pdf
+resume_extracted*.txt
+resume_page_*.png
